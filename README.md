@@ -28,13 +28,15 @@ Note: Any failed test cases will run again to be confident in the test run, and 
 2.1 You can add test classes within <classes></classes> tag to identify the test classes you want to run.  
 2.2 You can add test methods within <class></class> tag to identify the test methods you want to run.  
 Ex:
-			<classes>
-				<class name="testCases.TestCases">
-					<methods>
-              <include name="verifySuccessfullRegisterAndLogin"/>
-              <include name="verifyCategoriesHaveItems"/>
-              <include name="verifyAddAndRemoveFromCart"/>
-              <include name="verifySuccessfulCheckout"/>
-					</methods>
-				</class>
-			</classes>
+```
+<classes>
+	<class name="testCases.TestCases">
+		<methods>
+			<include name="verifySuccessfullRegisterAndLogin"/>
+			<include name="verifyCategoriesHaveItems"/>
+			<include name="verifyAddAndRemoveFromCart"/>
+			<include name="verifySuccessfulCheckout"/>
+		</methods>
+	</class>
+</classes>
+```
